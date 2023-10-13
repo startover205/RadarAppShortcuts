@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import AppIntents
 
 struct ContentView: View {
     var body: some View {
@@ -14,6 +15,8 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello, world!")
+            SiriTipView(intent: MyIntent())
+            Text(.now, style: .date)
         }
         .padding()
     }
@@ -21,4 +24,5 @@ struct ContentView: View {
 
 #Preview {
     ContentView()
+        .environment(\.locale, .init(identifier: "ru"))
 }
