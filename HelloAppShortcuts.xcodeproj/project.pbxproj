@@ -13,7 +13,7 @@
 		C0BA8ADE2AD906C500162325 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0BA8ADD2AD906C500162325 /* Preview Assets.xcassets */; };
 		C0BA8AE52AD906D300162325 /* MyIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BA8AE42AD906D300162325 /* MyIntent.swift */; };
 		C0BA8AE72AD907D600162325 /* MyAppShortcuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BA8AE62AD907D600162325 /* MyAppShortcuts.swift */; };
-		C0BA8AE92AD90A6800162325 /* AppShortcuts.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = C0BA8AE82AD90A6800162325 /* AppShortcuts.xcstrings */; };
+		C0BA8AEC2AD910EE00162325 /* AppShortcuts.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0BA8AEE2AD910EE00162325 /* AppShortcuts.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +26,10 @@
 		C0BA8AE42AD906D300162325 /* MyIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyIntent.swift; sourceTree = "<group>"; };
 		C0BA8AE62AD907D600162325 /* MyAppShortcuts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppShortcuts.swift; sourceTree = "<group>"; };
 		C0BA8AE82AD90A6800162325 /* AppShortcuts.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = AppShortcuts.xcstrings; sourceTree = "<group>"; };
+		C0BA8AED2AD910EE00162325 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/AppShortcuts.strings; sourceTree = "<group>"; };
+		C0BA8AEF2AD911BB00162325 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/AppShortcuts.strings"; sourceTree = "<group>"; };
+		C0BA8AF02AD911BC00162325 /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/AppShortcuts.strings"; sourceTree = "<group>"; };
+		C0BA8AF12AD911BD00162325 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/AppShortcuts.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,7 @@
 				C0BA8AE42AD906D300162325 /* MyIntent.swift */,
 				C0BA8AE62AD907D600162325 /* MyAppShortcuts.swift */,
 				C0BA8AE82AD90A6800162325 /* AppShortcuts.xcstrings */,
+				C0BA8AEE2AD910EE00162325 /* AppShortcuts.strings */,
 				C0BA8AD92AD906C500162325 /* Assets.xcassets */,
 				C0BA8ADB2AD906C500162325 /* HelloAppShortcuts.entitlements */,
 				C0BA8ADC2AD906C500162325 /* Preview Content */,
@@ -141,8 +146,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0BA8ADE2AD906C500162325 /* Preview Assets.xcassets in Resources */,
-				C0BA8AE92AD90A6800162325 /* AppShortcuts.xcstrings in Resources */,
 				C0BA8ADA2AD906C500162325 /* Assets.xcassets in Resources */,
+				C0BA8AEC2AD910EE00162325 /* AppShortcuts.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,6 +166,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C0BA8AEE2AD910EE00162325 /* AppShortcuts.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0BA8AED2AD910EE00162325 /* ru */,
+				C0BA8AEF2AD911BB00162325 /* zh-Hans */,
+				C0BA8AF02AD911BC00162325 /* zh-HK */,
+				C0BA8AF12AD911BD00162325 /* zh-Hant */,
+			);
+			name = AppShortcuts.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C0BA8ADF2AD906C500162325 /* Debug */ = {
@@ -300,7 +319,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
@@ -339,7 +358,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
