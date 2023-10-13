@@ -19,6 +19,30 @@
               "Тестирование с ${applicationName}"
             ]
           }
+        },
+        "zh-Hans" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "使用 ${applicationName} 进行测试"
+            ]
+          }
+        },
+        "zh-Hant" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "使用${applicationName}測試"
+            ]
+          }
+        },
+        "zh-HK" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "使用 ${applicationName} 進行測試(HongKong)"
+            ]
+          }
         }
       }
     }
