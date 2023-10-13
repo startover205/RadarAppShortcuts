@@ -12,6 +12,7 @@
 		C0BA8ADA2AD906C500162325 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0BA8AD92AD906C500162325 /* Assets.xcassets */; };
 		C0BA8ADE2AD906C500162325 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0BA8ADD2AD906C500162325 /* Preview Assets.xcassets */; };
 		C0BA8AE52AD906D300162325 /* MyIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BA8AE42AD906D300162325 /* MyIntent.swift */; };
+		C0BA8AE72AD907D600162325 /* MyAppShortcuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BA8AE62AD907D600162325 /* MyAppShortcuts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C0BA8ADB2AD906C500162325 /* HelloAppShortcuts.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HelloAppShortcuts.entitlements; sourceTree = "<group>"; };
 		C0BA8ADD2AD906C500162325 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C0BA8AE42AD906D300162325 /* MyIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyIntent.swift; sourceTree = "<group>"; };
+		C0BA8AE62AD907D600162325 /* MyAppShortcuts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppShortcuts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				C0BA8AD52AD906C400162325 /* HelloAppShortcutsApp.swift */,
 				C0BA8AD72AD906C400162325 /* ContentView.swift */,
 				C0BA8AE42AD906D300162325 /* MyIntent.swift */,
+				C0BA8AE62AD907D600162325 /* MyAppShortcuts.swift */,
 				C0BA8AD92AD906C500162325 /* Assets.xcassets */,
 				C0BA8ADB2AD906C500162325 /* HelloAppShortcuts.entitlements */,
 				C0BA8ADC2AD906C500162325 /* Preview Content */,
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0BA8AD82AD906C400162325 /* ContentView.swift in Sources */,
+				C0BA8AE72AD907D600162325 /* MyAppShortcuts.swift in Sources */,
 				C0BA8AD62AD906C400162325 /* HelloAppShortcutsApp.swift in Sources */,
 				C0BA8AE52AD906D300162325 /* MyIntent.swift in Sources */,
 			);
